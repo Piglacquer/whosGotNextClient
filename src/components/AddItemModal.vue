@@ -5,8 +5,11 @@
         <v-card-text>
           <h2 class="title">Get Me In The Queue</h2>
           <form>
-            <label for="name">Name</label>
-            <input type="text" name="name" placeholder="Tredegar" v-model='player.name'>
+            <v-text-field
+              v-model='player.name'
+              placeholder='wtf is yo name'
+              label="Name:"
+            ></v-text-field>
           </form>
         </v-card-text>
           <v-spacer></v-spacer>
